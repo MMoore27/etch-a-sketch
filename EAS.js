@@ -16,7 +16,7 @@ function createGrid(gridSize) {
 	}
 
 	hoverEffects();
-}
+};
 
 function hoverEffects(){
 	$('.unit').hover (
@@ -28,4 +28,13 @@ function hoverEffects(){
 			$(this).css("background-color", "green");
 		}
 	)
-}
+};
+
+  function clearGrid(){
+    $('.unit').css('background-color','white');
+  };
+  function createNGrid(){
+      var x = prompt('How many rows/columns?');
+		  clearGrid();
+   		createGrid(x);
+  };
