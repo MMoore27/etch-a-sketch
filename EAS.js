@@ -38,3 +38,17 @@ function hoverEffects(){
 		  clearGrid();
    		createGrid(x);
   };
+
+  function randomcolor() {
+  	clearGrid();
+  	createNGrid();
+      $('.unit').hover (
+        function() {
+          $(this).addClass("hover");
+        },
+        function() {
+          $(this).removeClass("hover");
+          $(this).css('background', 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')');
+        }
+      )
+  }
