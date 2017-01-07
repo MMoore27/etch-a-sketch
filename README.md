@@ -2,5 +2,4 @@ From The Odin Project's [curriculum](http://www.theodinproject.com/web-developme
 
 Create an etch-a-sketch grid which can be drawn on using the mouse with HTML/CSS/Javascript/JQuery
 
-TO-DO
--(bonus) random RGB color line
+There is also the option to have a rainbow colored line instead of monochrome.
